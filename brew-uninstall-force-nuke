@@ -1,0 +1,3 @@
+#!/bin/sh
+brew uninstall --force "$1"
+rm -rf "$(brew --prefix)/Caskroom/$1"
